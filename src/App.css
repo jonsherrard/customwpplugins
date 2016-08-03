@@ -1,0 +1,46 @@
+body {
+  font-size: 18px;
+}
+
+h3 {
+  margin-bottom: -0.3em;
+}
+
+.App-body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75ch;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-logo svg {
+  fill: #bada55;
+}
+
+.App-header {
+  background-color: #F4D03F;
+  height: 150px;
+  padding: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.App-intro {
+  font-family: 'Baskerville';
+  font-size: x-large;
+  text-align: center;
+}
+
+p {
+  line-height: 1.41;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
