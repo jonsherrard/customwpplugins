@@ -1,11 +1,11 @@
  let tenets = [
       {
         "title": "High Quality PHP",
-        "text": "WordPress themes and plugins have a bad reputation. Some plugins are written by relative amateurs, or developers unfamiliar with WordPress hacking together some functionality. We spend our days writing WordPress themes and plugins, using modern PHP development techniques, taking cues from frameworks like Laravel, Symphony 2, and Slim." 
+        "text": "Many Wordpress plugins are a quick fix borne out of the frustration of developers without much experience with modern Wordpress methods, ours are built for purpose. We spend our days writing WordPress themes and plugins, using modern PHP development techniques, taking cues from frameworks like Laravel, Symphony 2, and Slim." 
       },
       {
         "title": "Modern JavaScript",
-        "text": "We write JavaScript that won't interfere with WordPress' admin scripts, or other plugins you may have installed. We write ES6 transpiled and linted with WebPack, using industry best practices. When we're not writing PHP, we're often writing vanilla JS for legacy projects, Backone applications, and most recently, using React and Redux."
+        "text": "We write JavaScript that won't interfere with WordPress' admin scripts, or other plugins you may have installed. We write ES6 transpiled and linted with WebPack, using industry best practices. When we're not writing PHP, we're often writing vanilla JS for legacy projects, Backbone applications, and most recently, using React and Redux."
       },
       {
         "title": "Considered Markup",

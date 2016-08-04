@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Custom WP Plugins</h2>
+          <h1>Custom WP Plugins</h1>
         </div>
         <div className="App-body">
           <p className="App-intro">
