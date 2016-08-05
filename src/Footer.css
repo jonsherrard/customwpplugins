@@ -6,5 +6,10 @@
   margin-top: 3em;
 }
 
+.App-footer h3 {
+  padding-top: 15px;
+  padding-left: 0px;
+}
+
 .App-company-name {
 }

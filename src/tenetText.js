@@ -1,7 +1,7 @@
  let tenets = [
       {
         "title": "High Quality PHP",
-        "text": "Many Wordpress plugins are a quick fix borne out of the frustration of developers without much experience with modern Wordpress methods, ours are built for purpose. We spend our days writing WordPress themes and plugins, using modern PHP development techniques, taking cues from frameworks like Laravel, Symphony 2, and Slim." 
+        "text": "Many Wordpress plugins are a quick fix, borne out of the frustration some developers feel when they're not familiar with WordPress. We spend all our working days writing WordPress themes and plugins, using modern PHP development techniques, and taking cues from frameworks like Laravel, Symphony 2, and Slim. Messy, unmaintainable, legacy code is the last thing you'll find in our software." 
       },
       {
         "title": "Modern JavaScript",
@@ -14,6 +14,10 @@
       {
         "title": "Sensible CSS",
         "text": "The CSS we write for our plugins is namespaced and has a low specificity. This means it's easy for you to overwrite in your app CSS. We always include an option to turn off our CSS entirely." 
+      },
+      {
+        "title": "Safe Databases",
+        "text": "Some plugins will cram WordPress metadata tables with junk that's difficult to clean up should you not need a plugin anymore. Our plugins create their own tables when appropriate, and tidy up after themselves if you remove the plugin."
       }
     ];
 
