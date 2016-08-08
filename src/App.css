@@ -44,11 +44,25 @@ h1 + h2 {
   padding-right: 10px;
 }
 
+.Logo-block {
+  max-width: 70ch;
+  margin: auto;
+}
+
+@media (max-width: 510px) {
+  .App-logo {
+    display: none;
+  }
+}
+
 .App-logo {
+  float: left;
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
   margin-top: 1em;
+  margin-left: 50px;
 }
+
 
 .App-logo svg {
   fill: #bada55;
@@ -56,21 +70,21 @@ h1 + h2 {
 
 .App-header {
   background-color: #F4D03F;
-  min-height: 150px;
-  padding: 20px;
+  min-height: 130px;
   color: #333333;
   text-align: center;
 }
 
 .App-header h1 {
   border-bottom: 5px solid #FFFFFF;
+  float: left;
 }
 
 .App-intro {
   font-size: x-large;
   font-weight: bold;
   padding-bottom: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
   border-bottom: 1px solid #eaeaea;
 }
@@ -98,7 +112,7 @@ h3 {
 }
 
 .Feature:hover {
-  border-color: #7f8c8d;
+  background: #EEEEEE;
 }
 
 .Feature--selected {

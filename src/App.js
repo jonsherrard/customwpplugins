@@ -14,15 +14,16 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <br/>
-          <h1>Custom WP Plugins</h1>
+          <div className="App-body">
+            <h1>Custom WP Plugins</h1>
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
         </div>
         <div className="App-body">
           <p className="App-intro">
             Add custom features, pages, dashboards, and functionality to your WordPress site. Custom WP Plugins has a wealth of experience in building well-tested, innovative extensions to the WordPress platform.
           </p>
-          <h1 className="text-align-center">Code to be proud of.</h1>          
+          <h1 className="text-align-center">Code you&rsquo;d be proud of.</h1>          
           <h2>Your WordPress installation represents you or your business, we&rsquo;ll never give you something we wouldn&rsquo;t run on our own sites.</h2>
 
           {tenets.map((tenet, index) => {

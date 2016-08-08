@@ -19,7 +19,7 @@ class Quote extends Component {
       {
         "name": "WordPress Editor Shortcode",
         "description": "Allow your editors to enter <code>[WordPress='shortcodes']</code> into their WordPress content",
-        "cost": 300,
+        "cost": 100,
         "selected": false
       },
       {
